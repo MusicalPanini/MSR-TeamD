@@ -1,12 +1,13 @@
 var cords = [145.03411259518066, -37.82879306920354];
 
-mapboxgl.accessToken = 'pk.eyJ1IjoidHJpZ2VucGFuaW5pIiwiYSI6ImNqbDV0NXU3NjJxZTAzcnF0aWdlc3B3ZG4ifQ.emMb8nYj7XXUg70EaBVZ7g';
+// You gotta get your own Mapbox access token and style link now
+/*mapboxgl.accessToken = *INSERT ACCESS TOKEN HERE*;
 var map = new mapboxgl.Map({
     container: 'map',
-    style: 'mapbox://styles/trigenpanini/cjl5yll0308l82qqktmirrjcy',
+    style: *INSERT STYLE LINK HERE*, 
     center: JSON.parse(slides[0].LocationCords),
     zoom: 3.0
-});
+});*/
 
 var canvas = map.getCanvasContainer();
 
